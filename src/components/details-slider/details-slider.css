@@ -1,0 +1,41 @@
+.carousel-caption p {
+    color: #fff;
+    font-weight: bold;
+    font-style: italic;
+}
+h1 {
+    color: #fff;
+    font-weight: bolder;
+}
+.carousel-inner {
+    height: 350px !important;
+}
+.carousel-item {
+    height: 100%;
+    bottom: 1.25rem;
+}
+
+@media (min-width: 1200px) {
+    .carousel-caption h1 {
+        font-size: 3.0rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .carousel-caption h1 {
+        font-size: 1.2rem;
+    }
+    .carousel-caption p {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 800px) and (min-width: 400px) {
+    .carousel-caption h1 {
+        font-size: 1.2rem;
+    }
+
+    .carousel-caption p {
+        font-size: 16px;
+    }
+}
